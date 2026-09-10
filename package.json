@@ -1,0 +1,9 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "A collection of shared agent skills for coding agents, used across my different machines",
+  "keywords": ["pi-package"],
+  "pi": {
+    "skills": ["./skill-management"]
+  }
+}
