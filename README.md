@@ -12,16 +12,14 @@ Each skill lives in its own directory with a `SKILL.md` file describing when and
 
 ## Usage
 
-Clone this repo and symlink (or copy) the skills you need into your agent's skill directory, e.g.:
+This repo is a [pi package](https://pi.dev/packages). Install it with:
 
 ```sh
-ln -s ~/Work/Study/agent-skills/<skill-name> ~/.pi/agent/skills/<skill-name>
+pi install git:github.com/mydnicq/agent-skills
 ```
 
-## Structure
+Keep the skills up to date with:
 
-```
-agent-skills/
-└── <skill-name>/
-    └── SKILL.md
+```sh
+pi update --extensions
 ```
