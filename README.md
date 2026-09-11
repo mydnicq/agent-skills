@@ -6,9 +6,11 @@ Each skill lives in its own directory with a `SKILL.md` file describing when and
 
 ## Skills
 
-| Skill | Description |
-|---|---|
-| [skill-management](skill-management/) | Create new agent skills or update existing ones following the [Agent Skills specification](https://agentskills.io/specification.md). |
+| Skill | Description | Source |
+|---|---|---|
+| [herdr](herdr/) | Control Herdr, a terminal multiplexer for coding agents. | [herdrdev/herdr](https://github.com/herdrdev/herdr/blob/master/skills/herdr/SKILL.md) |
+| [skill-management](skill-management/) | Create new agent skills or update existing ones following the [Agent Skills specification](https://agentskills.io/specification.md). | Original |
+| [write-discoverable-code](write-discoverable-code/) | Rules for writing code that coding agents (and humans) can find and understand through plain-text search. | [modem-dev/skills](https://github.com/modem-dev/skills/blob/main/write-discoverable-code/SKILL.md) |
 
 ## Usage
 

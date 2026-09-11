@@ -4,6 +4,6 @@
   "description": "A collection of shared agent skills for coding agents, used across my different machines",
   "keywords": ["pi-package"],
   "pi": {
-    "skills": ["./skill-management"]
+    "skills": ["./herdr", "./skill-management", "./write-discoverable-code"]
   }
 }
