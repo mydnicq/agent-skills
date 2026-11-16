@@ -19,21 +19,9 @@ Skills in this collection are verbatim copies of upstream files. Never hand-edit
 
 | Skill | Upstream | Path | Ref |
 |---|---|---|---|
-| herdr | herdrdev/herdr | skills/herdr/SKILL.md | newest stable `v*` release |
 | write-discoverable-code | modem-dev/skills | write-discoverable-code/SKILL.md | `main` (no release tags) |
 
 Locally-owned skills (not tracked upstream, never auto-synced): `skill-management`.
-
-## Update herdr
-
-```sh
-tag=$(curl -s https://api.github.com/repos/herdrdev/herdr/releases/latest | grep -o '"tag_name": "[^"]*"' | cut -d'"' -f4)
-curl -sL "https://raw.githubusercontent.com/herdrdev/herdr/$tag/skills/herdr/SKILL.md" -o herdr/SKILL.md
-shasum -a 256 herdr/SKILL.md
-git diff --stat herdr/SKILL.md
-```
-
-Commit as `chore(herdr): sync skill to <tag>` once the diff contains only upstream changes.
 
 ## Update write-discoverable-code
 
